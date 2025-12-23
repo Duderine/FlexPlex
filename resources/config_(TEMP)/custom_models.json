@@ -1,0 +1,37 @@
+{
+  "providers": [
+    {
+      "name": "Nvidia",
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "Your_Key_Here",
+      "models": [
+        { "nickname": "🏛️ O ARQUITETO I (Llama-405B)", "modelId": "meta/llama-3.1-405b-instruct" },
+        { "nickname": "🏛️ O ARQUITETO II (Nemotron-253B)", "modelId": "nvidia/llama-3.1-nemotron-ultra-253b-v1" },
+        { "nickname": "🔬 O CIENTISTA I (DeepSeek-R1)", "modelId": "deepseek-ai/deepseek-r1" },
+        { "nickname": "🔬 O CIENTISTA II (Mistral-Large-3)", "modelId": "mistralai/mistral-large-3-675b-instruct-2512" },
+        { "nickname": "🌐 O TRADUTOR I (Nemotron-70B)", "modelId": "nvidia/llama-3.1-nemotron-70b-instruct" },
+        { "nickname": "🌐 O TRADUTOR II (Qwen-3-Next)", "modelId": "qwen/qwen3-next-80b-a3b-instruct" },
+        { "nickname": "🎨 O CRIATIVO I (Palmyra-122B)", "modelId": "writer/palmyra-creative-122b" },
+        { "nickname": "🎨 O CRIATIVO II (Gemma-3-27B)", "modelId": "google/gemma-3-27b-it" },
+        { "nickname": "🛡️ O VIGILANTE I (ShieldGemma)", "modelId": "google/shieldgemma-9b" },
+        { "nickname": "🛡️ O VIGILANTE II (Llama-Guard)", "modelId": "meta/llama-guard-4-12b" }
+      ]
+    },
+    {
+      "name": "Cerebras",
+      "baseUrl": "https://api.cerebras.ai/v1",
+      "apiKey": "Your_Key_Here",
+      "models": [
+        { "nickname": "⚡ O INSTANTÂNEO I (Cerebras-70B)", "modelId": "llama-3.3-70b" }
+      ]
+    },
+    {
+      "name": "Groq",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "apiKey": "Your_Key_Here",
+      "models": [
+        { "nickname": "⚡ O INSTANTÂNEO II (Groq-Llama-4)", "modelId": "meta-llama/llama-4-scout-17b-16e-instruct" }
+      ]
+    }
+  ]
+}
